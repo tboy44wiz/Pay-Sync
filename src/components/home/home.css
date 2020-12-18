@@ -1,0 +1,749 @@
+.home-page-wrap {
+  background-image: url(../../assets/hero-img.png);
+  width: 100%;
+  height: 950px;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  /*background-color: #61dafb;*/
+}
+
+.pay-sync-hero-text-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.pay-sync-hero-text-wrap h1 {
+  font-size: clamp(35px, 5vw, 45px);
+  line-height: 58px;
+  text-align: center;
+  color: #14274e;
+  font-weight: 600;
+  position: relative;
+  bottom: 30px;
+  line-height: 50px;
+}
+
+.pay-sync-hero-text-wrap h4 {
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #14274e;
+  opacity: 0.58;
+}
+
+.about-app-home-page {
+  background-color: white;
+}
+
+.download-app-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avalable-home {
+  margin-bottom: 20px;
+}
+
+.avalable-home p {
+  font-weight: 400;
+  font-size: 28px;
+  text-align: left;
+  color: #14274e;
+}
+
+.download-store-home img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.trustedby-sec-home {
+  margin-top: 50px;
+}
+
+.trustedby-sec-home h1 {
+  font-weight: 600;
+  font-size: 31px;
+  text-align: left;
+  color: #14274e;
+  text-align: center;
+}
+
+.trusted-by-images-home {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.trusted-by-images-home img {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.hr-home-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.hr-home-sm {
+  width: 100px;
+  height: 3px;
+  background-color: orange;
+  text-align: center;
+}
+.paysync-solution-home {}
+
+.body-gen-padding-home {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+}
+
+.paysync-solution-home h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 26px;
+  text-align: center;
+  color: #14274e;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.paysync-solution-home h3 {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #14274e;
+  opacity: 0.92;
+
+  text-align: center;
+}
+.what-we-do-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion-section-home {
+  width: 50%;
+}
+
+.what-we-do-img {
+  width: 50%;
+}
+
+.our-service-home {
+  background-color: #f1f6f9;
+  padding-top: 50px;
+}
+
+.what-we-do-img img {
+  width: 100%;
+}
+
+.service-header-home {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  color: #14274e;
+}
+
+.serve-list-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.service-home-list-img-wrap {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+}
+.service-home-list-img-wrap img {
+  width: 30px;
+  height: 30px;
+}
+
+.serve-list-home div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.serve-list-home div h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #14274e;
+}
+
+.serve-list-home div p {
+  font-size: 16px;
+  line-height: 34px;
+  text-align: right;
+  color: #6f6f6f;
+  margin-top: 4px;
+}
+
+.service-padding-home {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.subscription-news-home {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.subscription-padding-home {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.subscription-header-home {
+  text-align: center;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 45px;
+  color: #14274e;
+}
+.subscription-header-home img {
+  position: relative;
+  left: -30px;
+  top: -4px;
+  width: 58.96px;
+  height: 39.31px;
+  background: transparent;
+
+}
+
+.subscribe-label {
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 40px;
+  margin: 45px 0 20px 0;
+  text-align: center;
+  color: #14274e;
+  opacity: 0.92;
+}
+
+.subscribe-wrapper-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.subscribe-now-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 64px;
+  border-radius: 37px;
+  background: #fff;
+  border: 1px solid #18274b;
+}
+
+.arrow-recycle-left {
+  position: relative;
+  left: -50px;
+  top: -20px;
+
+}
+.arrow-recycle-right {
+  position: relative;
+  right: -50px;
+  top: -20px;
+}
+.subscribe-now-home button {
+  width: 30%;
+  max-width: 223px;
+  height: 64px;
+  border-radius: 0px 37px 37px 0px;
+  color: #fff;
+  background: #14274e;
+  border: 1px solid #18274b;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+}
+.subscribe-now-home input {
+  width: 70%;
+  max-width: 423px;
+  height: 64px;
+  border-radius: 37px 0 0 37px;
+  background: #fff;
+  color: #14274e;
+  border: 1px solid #18274b;
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.testimonials-home {
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background: #f1f6f9;
+}
+.testimonials-padding-home {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.testimonials-header-home {
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 45px;
+  text-align: center;
+  color: #14274e;
+}
+.testimonials-padding-home small {
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #14274e;
+  opacity: 0.48;
+}
+.testimonial-message-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 35px 50px;
+  width: 45%;
+  max-width: 582px;
+  min-width: 210px;
+  height: 322px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 26px rgba(156, 164, 179, 0.16);
+}
+.testimonial-message-box p {
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 32px;
+  margin-top: 55px;
+  text-align: center;
+  color: #14274e;
+  opacity: 0.82;
+}
+.testimonial-middle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-name-testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-name-testimony {
+  position: relative;
+  top: 28%;
+}
+.user-name-testimony img {
+  width: 122.63px;
+  height: 122.63px;
+  /* background: url(...); */
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+}
+.user-img-testimony {
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 37px;
+  color: #241b14;
+}
+.user-designation-testimony {
+  font-family: Nunito;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 37px;
+  color: #241b14;
+}
+.previous-testimony {
+  position: relative;
+  left: 65px;
+}
+.next-testimony {
+  position: relative;
+  left: -65px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .home-page-wrap {
+    height: 760px;
+  }
+
+  .trustedby-sec-home {
+    margin-top: 50px;
+  }
+  .trustedby-sec-home h1 {
+    font-weight: 400;
+    font-size: 28px;
+  }
+  .trusted-by-images-home img {
+    width: 180px;
+  }
+  .hr-home-sm {
+    width: 90px;
+    margin-top: -25px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .home-page-wrap {
+    height: 620px;
+    padding-top: 70px;
+  }
+  .pay-sync-hero-text-wrap h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .avalable-home p {
+    font-size: 20px;
+  }
+  .download-store-home img {
+    width: 120px;
+    margin-right: 15px;
+    margin-top: -10px;
+  }
+
+  .trustedby-sec-home h1 {
+    font-size: 22px;
+  }
+  .trusted-by-images-home img {
+    margin-bottom: 5px;
+    width: 140px;
+  }
+  .hr-home-sm {
+    height: 2px;
+    width: 70px;
+    margin-top: -25px;
+  }
+
+  .paysync-solution-home h3 {
+    font-size: 13px;
+  }
+
+  .accordion-section-home {
+    width: 60%;
+  }
+  .what-we-do-img {
+    width: 40%;
+  }
+
+  .service-header-home {
+    font-size: 22px;
+  }
+  .service-home-list-img-wrap {
+    width: 55px;
+    height: 55px;
+  }
+  .service-home-list-img-wrap img {
+    width: 27px;
+    height: 27px;
+  }
+  .serve-list-home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .serve-list-home div h3 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .serve-list-home div p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #6f6f6f;
+  }
+
+  .subscription-header-home {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 10px;
+  }
+
+  .subscribe-label {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 45px 0 0 0;
+  }
+  .subscribe-wrapper-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+  .subscribe-now-home {
+    height: 45px;
+  }
+  .arrow-recycle-left {
+    width: 50px;
+    position: relative;
+    left: -40px;
+    top: -15px;
+  }
+  .arrow-recycle-right {
+    width: 50px;
+    position: relative;
+    right: -40px;
+    top: -15px;
+  }
+  .subscribe-now-home button {
+    width: 30%;
+    max-width: 223px;
+    height: 45px;
+    border-radius: 0 37px 37px 0;
+    color: #fff;
+    background: #14274e;
+    border: 1px solid #18274b;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .subscribe-now-home input {
+    width: 70%;
+    max-width: 423px;
+    height: 45px;
+    border-radius: 37px 0 0 37px;
+    background: #fff;
+    color: #14274e;
+    border: 1px solid #18274b;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .home-page-wrap {
+    height: 450px;
+    padding-top: 50px;
+  }
+  .pay-sync-hero-text-wrap h1 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .pay-sync-hero-text-wrap h4 {
+    font-size: 18px;
+    margin-top: -15px;
+  }
+
+  .avalable-home p {
+    font-size: 18px;
+  }
+
+  .trustedby-sec-home h1 {
+    font-size: 20px;
+  }
+  .trusted-by-images-home img {
+    margin-bottom: 5px;
+    width: 100px;
+  }
+
+  .service-header-home {
+    font-size: 20px;
+  }
+  .service-home-list-img-wrap {
+    width: 50px;
+    height: 50px;
+  }
+  .service-home-list-img-wrap img {
+    width: 24px;
+    height: 24px;
+  }
+  .serve-list-home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .serve-list-home div h3 {
+    font-size: 14px;
+  }
+  .serve-list-home div p {
+    font-size: 12px;
+  }
+
+  .subscription-header-home {
+    font-size: 18px;
+  }
+  .subscription-header-home img {
+    left: -20px;
+    top: 1px;
+    width: 40px;
+  }
+
+  .subscribe-label {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .home-page-wrap {
+    height: 260px;
+    padding-top: 20px;
+  }
+  .pay-sync-hero-text-wrap h1 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .pay-sync-hero-text-wrap h4 {
+    font-size: 12px;
+    margin-top: -25px;
+  }
+
+  .avalable-home p {
+    font-size: 12px;
+  }
+  .download-store-home img {
+    width: 80px;
+    margin-right: 15px;
+    margin-top: -10px;
+  }
+
+  .trustedby-sec-home h1 {
+    font-size: 16px;
+  }
+
+  .trusted-by-images-home {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .trusted-by-images-home img {
+    width: 60px;
+  }
+  .hr-home-sm {
+    height: 2px;
+    width: 40px;
+    margin-top: -30px;
+  }
+
+  .what-we-do-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .accordion-section-home {
+    width: 70%;
+  }
+  .what-we-do-img {
+    width: 60%;
+  }
+
+  .service-header-home {
+    font-size: 16px;
+  }
+  .serve-list-home {
+    flex-direction: column;
+  }
+
+  .subscription-header-home {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1px;
+  }
+  .subscription-header-home img {
+    left: -15px;
+    top: 5px;
+    width: 30px;
+  }
+
+  .arrow-recycle-left {
+    width: 30px;
+    position: relative;
+    left: -20px;
+    top: -8px;
+  }
+  .arrow-recycle-right {
+    width: 30px;
+    position: relative;
+    right: -20px;
+    top: -8px;
+  }
+  .subscribe-now-home {
+    height: 35px;
+    width: 80%;
+  }
+  .subscribe-now-home button {
+    height: 35px;
+    font-size: 12px;
+  }
+  .subscribe-now-home input {
+    height: 35px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}

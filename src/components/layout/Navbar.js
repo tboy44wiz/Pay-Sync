@@ -39,12 +39,14 @@ const Navbar = (props) => {
         <div>Employers</div>
         <div>Employees</div>
         <div>
-          <Link to="/blog">
-            Blogs
-          </Link>
+          <Link to="/blog">Blogs</Link>
         </div>
-        <div>FAQs</div>
-        <div>About Us</div>
+        <div>
+          <Link to="/frequently-asked-question">FAQs</Link>
+        </div>
+        <div>
+          <Link to="/about">About Us</Link>
+        </div>
       </div>}
       {(showMenu || mobileButton) && <div className="navbar-right">
         <button className="login-button">Login</button>

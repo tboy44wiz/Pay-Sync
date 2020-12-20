@@ -1,0 +1,124 @@
+.about-main__wrapper {
+    width: 80%;
+    margin: 50px auto;
+    color: #14274e;
+}
+
+
+.section__header {
+    font-weight: 800 !important;
+    font-size: 29px !important;
+}
+.section__paragraph {
+    margin-top: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+{/*==== About PaySync Section ====*/}
+.about-section__wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+{/*==== Our Mission ====*/}
+.our-mission__wrapper {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+{/*==== Our Values ====*/}
+.our-values__wrapper {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.our-values__list {
+    margin-top: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: left;
+}
+.our-values__list li {
+    margin-top: 15px;
+}
+.our-values__sub-header {
+    font-weight: 500;
+}
+
+{/*==== The Team ====*/}
+.the-team__wrapper {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.team-members__wrapper {
+    margin: 30px auto;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.single-team-member__wrapper {
+    min-width: 220px;
+    height: 200px;
+}
+.team-member__avatar {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* ============================================================================= */
+
+@media only screen and (min-width: 1201px) {
+
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .section__header {
+        font-weight: 800 !important;
+        font-size: 24px !important;;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .section__header {
+        font-weight: 800 !important;;
+        font-size: 24px !important;;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .section__header {
+        font-weight: 800 !important;;
+        font-size: 22px !important;;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .section__header {
+        font-weight: 800 !important;;
+        font-size: 20px !important;;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .section__header {
+        font-weight: 800 !important;;
+        font-size: 20px !important;;
+    }
+}

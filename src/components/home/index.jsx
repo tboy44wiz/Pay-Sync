@@ -39,6 +39,7 @@ export default function Index(props) {
             </h4>
           </div>
         </div>
+
         <div style={{ backgroundColor: "white", width: "100%" }}>
           <div className="body-gen-padding-home">
             <div className="about-app-home-page">
@@ -66,9 +67,10 @@ export default function Index(props) {
                 <div className="hr-home-center">
                   <div className="hr-home-sm"></div>
                 </div>
-                <div className="paysync-solution-home">
+
+                <div className="paySync-solution-home">
                   <h1>What pain do we solve for you?</h1>
-                  <h3>
+                  <p>
                     We make your life easy by reducing and eliminating the
                     friction of you granting employees loans by allowing workers
                     to access their own money instead of relying on
@@ -77,7 +79,7 @@ export default function Index(props) {
                     their financial issues at workplace. Ultimately, we are
                     focusing on improving your happiness and productivity
                     through the most reputable financial platform in Africa.
-                  </h3>
+                  </p>
                 </div>
 
                 <div className="what-we-do-home">
@@ -86,7 +88,10 @@ export default function Index(props) {
                       <AccordionItem>
                         <AccordionItemHeading>
                           <AccordionItemButton>
-                            Employee access to already earned wages and payment solutions
+                            <span className="accordion__dropdown">
+                              Employee access to already earned wages <br />
+                            <span style={{ marginLeft: "25px" }}>and payment solutions</span>
+                            </span>
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
@@ -100,7 +105,9 @@ export default function Index(props) {
                       <AccordionItem>
                         <AccordionItemHeading>
                           <AccordionItemButton>
-                            Financially Healthy Life
+                            <span className="accordion__dropdown">
+                              Financially Healthy Life
+                            </span>
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>
@@ -114,7 +121,9 @@ export default function Index(props) {
                       <AccordionItem>
                         <AccordionItemHeading>
                           <AccordionItemButton>
-                            Increased Productivity
+                            <span className="accordion__dropdown">
+                              Increased Productivity
+                            </span>
                           </AccordionItemButton>
                         </AccordionItemHeading>
                         <AccordionItemPanel>

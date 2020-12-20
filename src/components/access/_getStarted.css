@@ -1,0 +1,807 @@
+/* Access Home */
+.access-top-tab__wrapper {
+    width: 100%;
+    height: 80px;
+    background: #14274e;
+    display: flex;
+    align-items: center;
+}
+.access-top-tab {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.access-tab-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 45px;
+    border-radius: 32px;
+    background: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.access-tab-item img {
+    align-items: center;
+    margin-left: 8px;
+}
+.access-page-body {
+    width: 100%;
+    padding: 0 150px;
+    background: #ecf1f5;
+}
+.access-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-access {
+    width: 35%;
+    padding: 0 0 0 10px;
+}
+.get-access h4 {
+    font-weight: 800;
+    margin-bottom: 16px;
+    font-size: 40px;
+    line-height: 26px;
+    text-align: left;
+    color: #14274e;
+}
+.get-access p {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 25px;
+    line-height: 36px;
+    text-align: left;
+    color: #14274e;
+    opacity: 0.92;
+}
+.get-access small {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+    color: #14274e;
+    opacity: 0.54;
+}
+.access-top-phone {
+    width: 55%;
+    text-align: right;
+    padding-top: 40px;
+}
+.access-top-phone img {
+    width: 90%;
+    height: auto;
+}
+.appstore-logo-container {
+    width: 60%;
+}
+.appstore-logo-container img {
+    width: 40%;
+    background: transparent;
+}
+.google-play-logo {
+    margin-right: 10px;
+}
+.app-store-logo {
+    margin-left: 10px;
+}
+.access-benefit-top {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+}
+.benefit-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background: #61dafb;
+    margin-top: 30px;
+}
+.benefit-single-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    margin: 10px 50px;
+}
+.benefit-single-item img {
+    width: 80px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 0px 66px rgba(0, 0, 0, 0.07));
+}
+.benefit-single-item div {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #14274e;
+}
+.benefit-single-item small {
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #6f6f6f;
+}
+
+
+
+.benefit-of-access {
+    padding: 50px 0;
+}
+.benefit-of-access__header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 26px;
+    color: #14274e;
+}
+.benefit-of-access__sub-header {
+    font-size: 18px !important;
+    line-height: 24px;
+    text-align: left;
+    color: #14274e;
+    margin-bottom: 10px;
+}
+.serve-list-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.service-home-list-img-wrap {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+.service-home-list-img-wrap img {
+    width: 30px;
+    height: 30px;
+}
+.serve-list-home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.serve-list-home div h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #14274e;
+}
+.serve-list-home div p {
+    font-size: 16px;
+    line-height: 34px;
+    text-align: right;
+    color: #6f6f6f;
+    margin-top: 4px;
+}
+.benefit-of-access-inner__wrapper {
+    width: 100%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.access-benefit-down {
+    padding: 70px 70px 0 70px;
+}
+.benefit-items-text {
+    padding: 50px 0;
+}
+.benefit-items-text p {
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+    margin-bottom: 25px;
+    color: #14274e;
+    opacity: 0.92;
+}
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 70px;
+    background: #14274e;
+}
+.how-it-works h5 {
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+.how-it-works img {
+    width: 68%;
+    background: transparent;
+}
+.faqs-section {
+    width: 100%;
+    margin-top: 20px;
+    padding: 60px 70px;
+    background: transparent;
+}
+.faqs-section__header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 26px;
+    color: #14274e;
+    margin-bottom: 50px;
+}
+.accordion__dropdown img {
+    float: right;
+    width: 18px;
+    display: none;
+}
+
+
+
+
+
+/* ============================================================================= */
+
+@media only screen and (min-width: 1201px) {
+    .access-tab-item {
+        width: 250px;
+        height: 43px !important;
+    }
+    .access-page-body {
+        padding: 0 100px;
+    }
+
+    .access-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .get-access {
+        width: 40%;
+        padding: 0;
+    }
+    .get-access h4 {
+        font-weight: 800;
+        margin-bottom: 14px;
+        font-size: 36px;
+    }
+    .get-access p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .get-access small {
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    .access-top-phone {
+        width: 55%;
+        text-align: right;
+        padding-top: 40px;
+    }
+    .access-top-phone img {
+        width: 90%;
+        height: auto;
+    }
+
+    .benefit-of-access-inner__wrapper {
+        padding: 0 20px;
+    }
+    .benefit-of-access__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        color: #14274e;
+    }
+    .benefit-of-access__sub-header {
+        font-size: 18px !important;
+        line-height: 24px;
+        text-align: left;
+        color: #14274e;
+        margin-bottom: 10px;
+    }
+    .serve-list-home {
+        min-width: 200px;
+        max-width: 650px;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .service-home-list-img-wrap {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .service-home-list-img-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+    .serve-list-home div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .serve-list-home div h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #14274e;
+    }
+    .serve-list-home div p {
+        font-size: 14px;
+        line-height: 34px;
+        text-align: right;
+        color: #6f6f6f;
+        margin-top: 4px;
+    }
+    .access-benefit-down {
+        padding: 70px 10px 0 20px;
+    }
+    .access-benefit-down {
+        padding: 70px 10px 0 20px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .access-tab-item {
+        width: 250px;
+        height: 43px !important;
+    }
+    .access-page-body {
+        padding: 0 100px;
+    }
+
+    .get-access {
+        width: 40%;
+        padding: 0 0 0 10px;
+    }
+    .get-access h4 {
+        font-weight: 800;
+        margin-bottom: 14px;
+        font-size: 34px;
+    }
+    .get-access p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .get-access small {
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    .access-top-phone {
+        width: 55%;
+        text-align: right;
+        padding-top: 40px;
+    }
+    .access-top-phone img {
+        width: 90%;
+        height: auto;
+    }
+
+    .benefit-of-access-inner__wrapper {
+        padding: 0 20px;
+    }
+    .benefit-of-access__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        color: #14274e;
+    }
+    .benefit-of-access__sub-header {
+        font-size: 18px !important;
+        line-height: 24px;
+        text-align: left;
+        color: #14274e;
+        margin-bottom: 10px;
+    }
+    .serve-list-home {
+        min-width: 200px;
+        max-width: 650px;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .service-home-list-img-wrap {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .service-home-list-img-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+    .serve-list-home div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .serve-list-home div h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #14274e;
+    }
+    .serve-list-home div p {
+        font-size: 14px;
+        line-height: 34px;
+        text-align: right;
+        color: #6f6f6f;
+        margin-top: 4px;
+    }
+    .access-benefit-down {
+        padding: 70px 10px 0 20px;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .access-tab-item {
+        width: 250px;
+        height: 43px !important;
+    }
+    .access-page-body {
+        padding: 0 100px;
+    }
+
+    .get-access {
+        width: 40%;
+        padding: 40PX 0 0 10px;
+    }
+    .get-access h4 {
+        font-weight: 800;
+        margin-bottom: 14px;
+        font-size: 30px;
+    }
+    .get-access p {
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-align: left;
+        line-height: 24px;
+    }
+    .get-access small {
+        font-size: 14px;
+        opacity: 0.7;
+        line-height: 10px;
+    }
+    .access-top-phone {
+        width: 55%;
+        text-align: right;
+        padding-top: 40px;
+    }
+    .access-top-phone img {
+        width: 90%;
+        height: auto;
+    }
+
+
+
+    .benefit-of-access {
+        padding: 50px 0;
+    }
+    .benefit-of-access-inner__wrapper {
+        padding: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .benefit-of-access__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 26px;
+        color: #14274e;
+    }
+    .benefit-of-access__sub-header {
+        font-size: 18px !important;
+        line-height: 24px;
+        text-align: left;
+        color: #14274e;
+        margin-bottom: 10px;
+    }
+    .serve-list-home {
+        min-width: 200px;
+        max-width: 600px;
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .service-home-list-img-wrap {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .service-home-list-img-wrap img {
+        width: 30px;
+        height: 30px;
+    }
+    .serve-list-home div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .serve-list-home div h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #14274e;
+    }
+    .serve-list-home div p {
+        font-size: 14px;
+        line-height: 34px;
+        text-align: right;
+        color: #6f6f6f;
+        margin-top: 4px;
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .access-top-tab__wrapper {
+        width: 100%;
+        height: 65px;
+        background: #14274e;
+        display: flex;
+        align-items: center;
+    }
+    .access-tab-item {
+        width: 200px;
+        height: 40px !important;
+        font-size: 12px;
+    }
+    .access-tab-item img {
+        width: 15px;
+        margin-left: 10px;
+    }
+    .access-page-body {
+        padding: 0 70px;
+    }
+
+    .get-access {
+        width: 45%;
+        padding: 10PX 0 0 10px;
+    }
+    .get-access h4 {
+        font-weight: 700;
+        margin-bottom: 14px;
+        font-size: 30px;
+    }
+    .get-access p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: left;
+        line-height: 20px;
+    }
+    .get-access small {
+        font-size: 12px;
+        opacity: 0.7;
+        line-height: 10px;
+    }
+    .access-top-phone img {
+        width: 100%;
+    }
+
+    .benefit-of-access-inner__wrapper {
+        padding: 0 20px;
+    }
+    .access-benefit-down {
+        padding: 70px 10px 0 20px;
+    }
+    .benefit-of-access__header {
+        font-size: 26px;
+    }
+
+    .how-it-works h5 {
+        font-size: 26px;
+    }
+
+    .faqs-section__header {
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .access-top-tab__wrapper {
+        width: 100%;
+        height: 50px;
+    }
+    .access-top-tab {
+        width: 95%;
+    }
+    .access-tab-item {
+        width: 130px;
+        height: 28px !important;
+        font-size: 10px;
+    }
+    .access-tab-item img {
+        width: 12px;
+        margin-left: 5px;
+    }
+    .access-page-body {
+        padding: 0 50px;
+    }
+    .access-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .get-access {
+        width: 100%;
+        padding: 40PX 0 0 10px;
+    }
+    .get-access h4 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    .get-access p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: left;
+        line-height: 22px;
+    }
+    .get-access small {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    .access-top-phone {
+        width: 80%;
+    }
+    .access-top-phone img {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .access-top-tab__wrapper {
+        width: 100%;
+        height: 50px;
+    }
+    .access-top-tab {
+        width: 95%;
+    }
+    .access-tab-item {
+        width: 130px;
+        height: 28px !important;
+        font-size: 10px;
+    }
+    .access-tab-item img {
+        width: 12px;
+        margin-left: 5px;
+    }
+    .access-page-body {
+        padding: 0 50px;
+    }
+    .access-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .get-access {
+        width: 100%;
+        padding: 40PX 0 0 10px;
+    }
+    .get-access h4 {
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    .get-access p {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-align: left;
+        line-height: 22px;
+    }
+    .get-access small {
+        font-size: 12px;
+        opacity: 0.7;
+        line-height: 20px;
+    }
+    .access-top-phone {
+        width: 80%;
+    }
+    .access-top-phone img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefit-of-access-inner__wrapper {
+        padding: 0 20px;
+    }
+    .access-benefit-down {
+        padding: 70px 10px 0 20px;
+    }
+    .benefit-of-access__header {
+        font-size: 22px;
+    }
+    .benefit-of-access__sub-header {
+        font-size: 15px !important;
+    }
+
+    .how-it-works h5 {
+        font-size: 22px;
+    }
+
+    .faqs-section {
+        width: 100%;
+        margin-top: 20px;
+        padding: 60px 30px;
+        background: transparent;
+    }
+    .faqs-section__header {
+        font-size: 22px;
+    }
+    .accordion__dropdown {
+        font-size: 15px;
+    }
+    .accordion__dropdown img {
+        float: right;
+        width: 12px;
+    }
+}

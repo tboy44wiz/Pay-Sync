@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../layout/layout";
 
 //  Importing "_faq.css"
-import './_about.css';
+import './_faq.css';
 
 //  Importing Images
 import MaleAvatar from '../../assets/male_avatar.png';
@@ -16,7 +16,7 @@ export default function Index() {
 
               {/*==== About PaySync Section ====*/}
               <div className="about-section__wrapper">
-                  <h1 className="section__header">About PaySync</h1>
+                  <h1 className="section__header">Frequently Asked Questions</h1>
                   <p className="section__paragraph">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

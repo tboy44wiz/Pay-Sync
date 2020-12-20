@@ -1,11 +1,15 @@
 import React from "react";
-import paysyncLogo from '../../assets/Group 22290.svg';
-import appleLogo from '../../assets/Apple-logo.svg';
-import androidLogo from '../../assets/Android-logo.svg';
-import InstagramIcon from '../../assets/InstagramIcon.svg';
-import LinkedInIcon from '../../assets/Icon awesome-linkedin.svg';
-import TwitterIcon from '../../assets/Icon awesome-twitter.svg';
-import facebookIcon from '../../assets/Icon awesome-facebook-square.svg';
+
+//  Importing "_footer.css".
+import './_footer.css';
+
+import paysyncLogo from '../../../assets/Group 22290.svg';
+import appleLogo from '../../../assets/Apple-logo.svg';
+import androidLogo from '../../../assets/Android-logo.svg';
+import InstagramIcon from '../../../assets/InstagramIcon.svg';
+import LinkedInIcon from '../../../assets/Icon awesome-linkedin.svg';
+import TwitterIcon from '../../../assets/Icon awesome-twitter.svg';
+import facebookIcon from '../../../assets/Icon awesome-facebook-square.svg';
 
 export default function footer() {
   return <div className="footer-main">
@@ -21,25 +25,26 @@ export default function footer() {
         <img src={TwitterIcon} alt="" className="social-logo"/>
         <img src={facebookIcon} alt="" className="social-logo"/>
       </div>
-      
     </div>
 
-    <div className="footer-menu">
-      <div className="menu-header">Menu</div>
-      <h6>Home</h6>
-      <h6>The App</h6>
-      <h6>FAQ</h6>
-      <h6>About Us</h6>
-      <h6>Contact Us</h6>
-    </div>
+    <div className="menu-info__wrapper">
+      <div className="footer-menu">
+        <div className="menu-header">Menu</div>
+        <h6>Home</h6>
+        <h6>The App</h6>
+        <h6>FAQ</h6>
+        <h6>About Us</h6>
+        <h6>Contact Us</h6>
+      </div>
 
-    <div className="footer-info">
-      <div className="info-header">Info</div>
-      <h6>Home</h6>
-      <h6>The App</h6>
-      <h6>FAQ</h6>
-      <h6>About Us</h6>
-      <h6>Contact Us</h6>
+      <div className="footer-info">
+        <div className="info-header">Info</div>
+        <h6>Home</h6>
+        <h6>The App</h6>
+        <h6>FAQ</h6>
+        <h6>About Us</h6>
+        <h6>Contact Us</h6>
+      </div>
     </div>
 
     <div className="footer-newsletter">

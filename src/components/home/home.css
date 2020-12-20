@@ -1,7 +1,7 @@
 .home-page-wrap {
   background-image: url(../../assets/hero-img.png);
   width: 100%;
-  height: 850px;
+  height: 900px;
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,11 +24,11 @@
   font-weight: 800;
   position: relative;
   bottom: 30px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .pay-sync-hero-text-wrap h4 {
-  font-family: Nunito;
+  margin-top: -20px;
   font-weight: normal;
   font-size: 20px;
   text-align: center;
@@ -420,10 +420,24 @@
 
 /*=================================================================================*/
 
+@media only screen and (min-width: 1601px) and (max-width: 2400px) {
+  .home-page-wrap {
+    height: 890px;
+    background-position: bottom center;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+  .home-page-wrap {
+    height: 780px;
+    background-position: bottom center;
+  }
+}
+
 @media only screen and (min-width: 1201px) and (max-width: 1440px) {
   .home-page-wrap {
     height: 750px;
     background-position: bottom center;
+    background: red;
   }
 
   .trustedby-sec-home {

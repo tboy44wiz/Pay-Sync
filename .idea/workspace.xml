@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9406c5b3-534a-4d36-9273-e5f53c21870a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/access/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/access/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +13,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="90581" />
+    <option name="totalTimeSeconds" value="90749" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608291630550</updated>
-      <workItem from="1608291635322" duration="76619000" />
+      <workItem from="1608291635322" duration="76787000" />
     </task>
     <servers />
   </component>

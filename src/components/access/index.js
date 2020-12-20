@@ -9,7 +9,6 @@ import arrow_next from '../../assets/next-arrow-tag.svg';
 import googlePlay from '../../assets/Google-Play.svg';
 import appleStore from '../../assets/Apple-Store.svg';
 import phone from '../../assets/Phone-Sliding.png';
-import employeeBudget from '../../assets/Employee-budget-icon.png';
 import greet from '../../assets/Greeting.svg';
 import iconCross from '../../assets/Icon metro-cross.svg';
 import iconBar from '../../assets/icon-bar.svg';

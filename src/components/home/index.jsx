@@ -1,7 +1,5 @@
 import React from "react";
-import Layout from "../layout/layout";
-import "./home.css";
-import "react-accessible-accordion/dist/fancy-example.css";
+import {Carousel} from "react-bootstrap";
 import {
   Accordion,
   AccordionItem,
@@ -9,19 +7,26 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+
+
+
+import Layout from "../layout/layout";
+import "./home.css";
+import "react-accessible-accordion/dist/fancy-example.css";
+
 import Playstoreimg from "../../assets/Google-Play.svg";
 import Apple from "../../assets/Apple-Store.svg";
 import recycleRight from "../../assets/recycle.svg";
 import recycleLeft from "../../assets/recycle.png";
 import crackers from "../../assets/crackers.svg";
-import previousIcon from "../../assets/PreviousIcon.svg";
-import nextIcon from "../../assets/NextIcon.svg";
 import userImg from "../../assets/userImage.svg";
 import EmployeeBudget from "../../assets/Group 22303.png";
 import InAppFinancial from "../../assets/Transactions.png";
 import FinancialTraining from "../../assets/Training.svg";
 import FreeDebit from "../../assets/Training.svg";
 import ZeroIntegration from "../../assets/Training.svg";
+
+
 export default function Index(props) {
   return (
     <React.Fragment>
@@ -233,28 +238,62 @@ export default function Index(props) {
 
 
           <div className="testimonials-home">
-            <div className="testimonials-padding-home">
-              <small>Testimonials</small>
-              <h1 className="testimonials-header-home">
-                Loved by our users.
-              </h1>
-              <div className="testimonial-middle">
-                <img src={previousIcon} alt="" className="previous-testimony" />
-                <div className="testimonial-message-box">
-                  <p>
-                    “It is comforting to know that if for some reason during the month you are in urgent need of cash
-                    that you have Floatpays as a back up, and the best of all it is money that you have already earned
-                    during the month and no percentage fees to worry about.”
-                  </p>
-                  <div className="user-name-testimony">
-                    <img src={userImg} alt="" />
-                    <div className="user-img-testimony">Diana Pierce</div>
-                    <div className="user-designation-testimony">CEO, Brick Consulting</div>
-                  </div>
-                </div>
-                <img src={nextIcon} alt="" className="next-testimony" />
-              </div>
+            <small>Testimonials</small>
+            <h1 className="testimonials-header-home">Loved by our users.</h1>
+            <div className="testimonial-middle">
+              <Carousel>
+                <Carousel.Item>
+                  <div className="testimonial__wrapper">
+                    <div className="testimonial-message-box">
+                      <p>
+                        “It is comforting to know that if for some reason during the month you are in urgent need of cash
+                        that you have Floatpays as a back up, and the best of all it is money that you have already earned
+                        during the month and no percentage fees to worry about.”
+                      </p>
+                      <img src={userImg} alt="" />
+                    </div>
 
+                    <div className="user-name-testimony">
+                      <h4 className="user-img-testimony">Diana Pierce</h4>
+                      <p className="user-designation-testimony">CEO, Brick Consulting</p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="testimonial__wrapper">
+                    <div className="testimonial-message-box">
+                      <p>
+                        “It is comforting to know that if for some reason during the month you are in urgent need of cash
+                        that you have Floatpays as a back up, and the best of all it is money that you have already earned
+                        during the month and no percentage fees to worry about.”
+                      </p>
+                      <img src={userImg} alt="" />
+                    </div>
+
+                    <div className="user-name-testimony">
+                      <h4 className="user-img-testimony">Diana Pierce</h4>
+                      <p className="user-designation-testimony">CEO, Brick Consulting</p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div className="testimonial__wrapper">
+                    <div className="testimonial-message-box">
+                      <p>
+                        “It is comforting to know that if for some reason during the month you are in urgent need of cash
+                        that you have Floatpays as a back up, and the best of all it is money that you have already earned
+                        during the month and no percentage fees to worry about.”
+                      </p>
+                      <img src={userImg} alt="" />
+                    </div>
+
+                    <div className="user-name-testimony">
+                      <h4 className="user-img-testimony">Diana Pierce</h4>
+                      <p className="user-designation-testimony">CEO, Brick Consulting</p>
+                    </div>
+                  </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
         </div>

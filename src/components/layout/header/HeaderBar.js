@@ -25,7 +25,7 @@ const HeaderBar = (props) => {
             <Nav className="mr-auto navbar-mid-nav">
               <Link to="#">Employers</Link>
               <Link to="#">Employees</Link>
-              <Link to="/blog">Blogs</Link>
+              <Link to="/blog">Blog</Link>
               <Link to="/frequently-asked-question">FAQs</Link>
               <Link to="/about">About Us</Link>
             </Nav>

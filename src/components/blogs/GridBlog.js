@@ -3,7 +3,7 @@ import React from 'react'
 export const GridBlog = (props) => {
     return (
         <div>
-            <div className="blog-card" key={props.index}>
+            <div data-aos="fade-up" className="blog-card" key={props.index}>
                 <div className="card-image">
                     <img src={props.image} alt="" />
                 </div>

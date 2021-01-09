@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 
 //  Importing "_getStarted.css"
 import './_getStarted.css';
@@ -25,7 +25,13 @@ import {
     AccordionItemPanel
 } from "react-accessible-accordion";
 
-const index = () => {
+import AOS from "aos";
+import "aos/dist/aos.css";
+export default function Index(props) {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
         <>
             <Layout>
@@ -48,7 +54,7 @@ const index = () => {
 
                 <div className="access-page-body">
                     <div className="access-top">
-                        <div className="get-access">
+                        <div data-aos="fade-right" className="get-access">
                             <h4>Get Access</h4>
                             <p>Access what you need, when you want, with the money you've already earned</p>
                             <small>*Your employer needs to offer the Paysync Benefit</small>
@@ -57,15 +63,15 @@ const index = () => {
                                 <img src={appleStore} alt="" className="app-store-logo" />
                             </div>
                         </div>
-                        <div className="access-top-phone">
+                        <div      data-aos="fade-down-left" className="access-top-phone">
                             <img src={phone} alt="" />
                         </div>
                     </div>
 
-                    <div className="benefit-of-access">
+                    <div  className="benefit-of-access">
                         <div className="benefit-of-access-inner__wrapper">
-                            <h1 className="benefit-of-access__header">Benefit of Access</h1>
-                            <div className="serve-list-home">
+                            <h1 data-aos="fade-right" className="benefit-of-access__header">Benefit of Access</h1>
+                            <div data-aos="fade-up" className="serve-list-home">
                                 <div>
                                     <div className="service-home-list-img-wrap">
                                         <img src={EmployeeBudget} alt=""/>
@@ -124,8 +130,8 @@ const index = () => {
                     </div>
 
                     <div className="access-benefit-down">
-                        <h4 className="benefit-of-access__header">Benefit of Access</h4>
-                        <div className="benefit-items-text">
+                        <h4 data-aos="fade-right" className="benefit-of-access__header">Benefit of Access</h4>
+                        <div data-aos="fade-up" className="benefit-items-text">
                             <ul>
                                 <li>
                                     <h6 className="benefit-of-access__sub-header">Financial Management</h6>
@@ -152,12 +158,14 @@ const index = () => {
                 </div>
 
                 <div className="how-it-works">
-                    <h5>How it works</h5>
-                    <img src={greet} alt="" />
+                    <h5 data-aos="fade-right">How it works</h5>
+                    <img data-aos="fade-up" src={greet} alt="" />
                 </div>
 
                 <div className="faqs-section">
-                    <h1 className="faqs-section__header">FAQs</h1>
+                    <h1 data-aos="fade-right" className="faqs-section__header">FAQs</h1>
+<div data-aos="fade-up">
+
 
                     <Accordion allowZeroExpanded>
                         <AccordionItem>
@@ -220,10 +228,11 @@ const index = () => {
                             </AccordionItemPanel>
                         </AccordionItem>
                     </Accordion>
+                    </div>
                 </div>
             </Layout>
         </>
     )
 }
 
-export default index
+

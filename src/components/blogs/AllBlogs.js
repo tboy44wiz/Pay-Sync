@@ -63,7 +63,7 @@ const AllBlogs = () => {
     ];
     return (
         <div>
-        <div className="blog-wrapper" >
+        <div  className="blog-wrapper" >
             {
                 blogData.map((item, index) => <GridBlog
                     key={index}
